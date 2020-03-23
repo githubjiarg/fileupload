@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <h2>欢迎登陆</h2>
+    <p>端口：8080 </p>
+    <div style="margin-top: 20px;">
+        <a href="javascript:void(0);" onclick="down_file();">文件下载</a>
+    </div>
+</body>
+<script type="text/javascript">
+    function down_file(){
+        window.open("https://localhost:8080/demo/fileController/downFile?fileId=001");
+    }
+</script>
+</html>
